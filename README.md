@@ -8,7 +8,7 @@
 The task is the following
 
 1.	Decommission the bulb and the sensor from the ZigBee dongle 
-2.	Give back the dongle to Christoph
+2.	Give back the dongle 
 3.	Set-up a mini Vivares system from the GW + router I left on your desk
 4.	Connect to the cloud service and create a test config
 a.	1 room
