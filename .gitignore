@@ -1,4 +1,5 @@
 .idea
 PostAuth.py
 key.py
-test.py
+client.crt
+client.pem.txt
