@@ -6,6 +6,6 @@ payload = {}
 headers = {
   'Authorization': acctoken}
 
-response = requests.request("GET", url, headers=headers, data = payload,cert=('..\\client.crt', '..\\client.pem.txt'), verify=False)
+response = requests.request("GET", url, headers=headers, data = payload,cert=('..\\cert\\client.crt', '..\\cert\\client.pem.txt'), verify=False)
 
 print(response.text.encode('utf8'))

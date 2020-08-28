@@ -8,6 +8,6 @@ headers = {
   'Content-Type': 'application/json'
 }
 
-response = requests.request("PUT", url, headers=headers, data=payload, cert=('..\\client.crt', '..\\client.pem.txt'), verify=False)
+response = requests.request("PUT", url, headers=headers, data=payload, cert=('..\\cert\\client.crt', '..\\cert\\client.pem.txt'), verify=False)
 
 print(response.text.encode('utf8'))
