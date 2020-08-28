@@ -2,7 +2,7 @@ import requests
 import time
 from key import *
 import json
-from test.testcsv import *
+from testcase.testcsv import *
 import pandas as pd
 arr = []
 url = "https://192.168.8.100:443/v1/lights/9480a509-20df-4bcb-81f2-d9cd664b64f5"
