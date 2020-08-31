@@ -26,10 +26,11 @@ c.	Reads the measured light level value from the attached sensor
 d.	And repeats the point above until 100%
 e.	Finally it creates a table with the dim steps and the measured value
 12.	The SW should
-a.	Have an architectural plan before the implementation
-b.	Stored in a local git repository
-c.	Commented with Doxygen compatible comments
-d.	Use a .conf file where the use can manually specify
-i.	The IP address of the GW
-ii.	The Vivares user name and Password
-e.	Be converted in its final form to an exe file which can independently run of windows machines
+* a.	Have an architectural plan before the implementation
+* b.	Stored in a local git repository
+* c.	Commented with Doxygen compatible comments
+* d.	Use a .conf file where the use can manually specify
+** i.	The IP address of the GW
+** ii.	The Vivares user name and Password
+* e.	Be converted in its final form to an exe file which can independently run of windows machines
+
