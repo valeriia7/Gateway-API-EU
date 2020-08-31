@@ -11,8 +11,8 @@ The task is the following
 2.	Give back the dongle 
 3.	Set-up a mini Vivares system from the GW + router I left on your desk
 4.	Connect to the cloud service and create a test config
-a.	1 room
-b.	1 bulb + 1 sensor (same types as you have now)
+* a.	1 room
+* b.	1 bulb + 1 sensor (same types as you have now)
 5.	Do the commissioning of the devices with the APP and keep them close to each other 
 6.	Get the IP address of the GW from the menu of the Router
 7.	Get an access token from the cloud service with Postman (valid for 24h!)
@@ -20,11 +20,11 @@ b.	1 bulb + 1 sensor (same types as you have now)
 9.	Get the light level value of the sensor with Postman
 10.	Switch on/off and the bulb with Postman
 11.	Based on the experience you have gained during the previous points, write a tool in phyton:
-a.	Which is increasing the light level of the bulb with 10% in each step
-b.	Waits some sec until the light flux is stable and the sensor could measure it
-c.	Reads the measured light level value from the attached sensor
-d.	And repeats the point above until 100%
-e.	Finally it creates a table with the dim steps and the measured value
+* a.	Which is increasing the light level of the bulb with 10% in each step
+* b.	Waits some sec until the light flux is stable and the sensor could measure it
+* c.	Reads the measured light level value from the attached sensor
+* d.	And repeats the point above until 100%
+* e.	Finally it creates a table with the dim steps and the measured value
 12.	The SW should
 * a.	Have an architectural plan before the implementation
 * b.	Stored in a local git repository
