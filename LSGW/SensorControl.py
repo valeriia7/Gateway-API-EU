@@ -9,7 +9,7 @@ for cct_value in range (2700,6700,400):
     for dim_value in range(0,110,10):
       str(dim(dim_value))
       print(dim_value)
-      time.sleep(1)
+      time.sleep(5)
       getSensorLight()
       arr.append((cct_value,dim_value,getSensorLight()))
       print(arr)
