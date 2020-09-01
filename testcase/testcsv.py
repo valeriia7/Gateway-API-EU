@@ -1,13 +1,4 @@
-# import csv
-# from iteration import *
-# with open('sensor_report_FREETEXT_DATE_TIME.csv', 'w', newline='') as csvfile:
-#     spamwriter = csv.writer(csvfile,
-#                             quotechar=',', quoting=csv.QUOTE_MINIMAL)
-#     spamwriter.writerow(['Spam'] * 5 + ['Baked Beans'])
-#     spamwriter.writerow(lightMeasurement())
 
-
-import csv
 from datetime import datetime
 
 now = datetime.now()
