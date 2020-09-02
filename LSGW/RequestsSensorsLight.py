@@ -7,6 +7,7 @@ headers = {
          'Authorization': acctoken,
          'Content-Type': 'application/json'
      }
+# Put color temperature for light
 def cct(cct_value):
  payload = "{\n    \"cct\": " + str(cct_value) + " \n}"
  headers = {
@@ -18,6 +19,7 @@ def cct(cct_value):
 
  print(response.text.encode('utf8'))
 
+# Put dimming for light
 def dim(dim_value):
      payload = "{\n    \"level\":" + str(dim_value) + " 10\n}"
      headers = {
@@ -30,6 +32,7 @@ def dim(dim_value):
 
      print(response.text.encode('utf8'))
 
+# Get light level from sensor
 def getSensorLight():
  payload  = {}
  headers = {

@@ -1,3 +1,5 @@
+## Get acctoken
+#  projectUuid was used from confi.py
 import requests
 from key import *
 from config.config import *

@@ -1,7 +1,7 @@
+## Check your project status
+#
 import requests
 from key import *
-from config.config import *
-print(username)
 url = "https://staging-lsc-api.mondriaan.com/api/1/projects"
 
 payload = {}
