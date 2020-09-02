@@ -8,7 +8,7 @@
 * 3. Add cert and cert.key to postmann 
 * 4. Auth and get token https://staging-lsc-api.mondriaan.com/api/1/auth/login
 * 5. Generate Accsestoken https://staging-lsc-api.mondriaan.com/api/1/projects/projectuuid/lock
-* 6 Create key.py and add token from 3 and acctoken from 4 to var 
+* 6. Create key.py and add token from 3 and acctoken from 4 to var 
 * 7. Add cert to python 
 
 
