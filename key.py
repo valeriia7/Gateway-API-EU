@@ -1,0 +1,8 @@
+"""
+-> token =  https://staging-lsc-api.mondriaan.com/api/1/auth/login or  get a token in PostAuth.py
+-> acctoken =  https://staging-lsc-api.mondriaan.com/api/1/projects/projectuuid/lock or get acctoken in postLock
+payload = "{\r\n  \"lockTTLInMinutes\": 120\r\n}\r\n"
+
+"""
+acctoken = 'Bearer passcode=9E91380B1C063260AB6E56B5F75391BD jwt=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2Nsb3VkLmxlZHZhbmNlLmNvbS9zbWFydC1wcm9mZXNzaW9uYWwvYXBpLzEiLCJzdWIiOiI2MzkxYmUwNi1jNTdkLTRlMWQtOTVkMS1jMDE2NjJlZmJkOTAiLCJhdWQiOiJwcm9qZWN0OjQyMmRmMmMyLWQxMjUtNDg1OS05YzVkLTlmOTQ5ZGYwYTEzNSIsImV4cCI6MTU5OTA0NjI0NiwiaWF0IjoxNTk5MDM5MDQ2fQ.iz1OO0JJi3EI3aCfjElwp_cWihSgsqmk9dkvJW0_QOAle2Qesf0QF19fbCGc_7BwzZkrmzwjIyvq0cfup_0xqQ'
+token = 'Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2Nsb3VkLmxlZHZhbmNlLmNvbS9zbWFydC1wcm9mZXNzaW9uYWwvYXBpLzEiLCJzdWIiOiI2MzkxYmUwNi1jNTdkLTRlMWQtOTVkMS1jMDE2NjJlZmJkOTAiLCJhdWQiOiJjbG91ZC1zZXJ2aWNlIiwiZXhwIjoxNTk5MjI5MTg1LCJpYXQiOjE1OTgzNjUxODR9.Bfu5EZJ2fRo8UUryfAAmKMEOAd7D1IOetfjBPAAHEOENbSGxC3aOwnj48sbQ8CwVl1fpjZbSDAEoi1ezK9_UBA'
