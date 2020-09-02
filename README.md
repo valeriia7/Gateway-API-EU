@@ -1,11 +1,19 @@
 # Gateway-API-EU
-* WLAN IP - http://192.168.8.100
-* Create account - https://staging-lsc-planningtool.mondriaan.com/login
+
+## How to start
+
+* 1. Connect to WLAN(Ex.NB2) IP - http://192.168.8.100
+* 2. Create account - https://staging-lsc-planningtool.mondriaan.com/login
 -> add sensor and lamp
+* 3. Add cert and cert.key to postmann 
+* 4. Auth and get token https://staging-lsc-api.mondriaan.com/api/1/auth/login
+* 5. Generate Accsestoken https://staging-lsc-api.mondriaan.com/api/1/projects/projectuuid/lock
+* 6 Create key.py and add token from 3 and acctoken from 4 to var 
+* 7. Add cert to python 
 
 
 
-The task is the following
+## The task is the following
 
 1.	Decommission the bulb and the sensor from the ZigBee dongle 
 2.	Give back the dongle 
